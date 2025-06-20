@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('images/bgf.jpg');
+  background-image: url('images/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,8 +67,9 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #6b6060;
   cursor: pointer;
+  color: #ffffff;
   transition: border-color 0.25s;
 }
 button:hover {
