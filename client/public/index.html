@@ -1,13 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>CosmicMatch</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
+
   <body>
+    <section class="main-intro">
+      <div class="content">
+        <h1>Welcome to COSMICMATCH</h1>
+        <p>
+          Ever wondered what it would be like to talk to a planet? Or vibe with
+          a star? <br />
+          <strong>CosmicMatch</strong> lets you step into the cosmic scene —
+          where you play as either a lonely planet or a shining star, ready to
+          mingle in a galaxy full of data-powered personalities.
+        </p>
+        <p>
+          Choose your cosmic identity, swipe your side, meet your matches, and
+          explore relationships across the universe. Will your star burn too
+          hot? Will your planet be too clingy? Or will you form a perfectly
+          balanced orbit?
+        </p>
+
+        <div class="roles">
+          <button onclick="window.location.href='star.html'">
+            <i class="fas fa-star"></i> Be a Star!
+          </button>
+          <button onclick="window.location.href='planet.html'">
+            <i class="fas fa-globe"></i> Be a Planet!
+          </button>
+        </div>
+      </div>
+    </section>
+
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!--<script type="module" src="/src/main.jsx"></script>-->
   </body>
 </html>
