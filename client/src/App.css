@@ -1,0 +1,26 @@
+/* Global styles for your entire app */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #0a0e17; /* Dark space background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 15px;
+  }
+}
+
+/* Add any additional global styles here */
